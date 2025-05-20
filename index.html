@@ -71,7 +71,39 @@
                 </div>
             </nav>
         </div>
-
+        <!--informacion sobre ingredientes-->
+        
+        <!-- Sección de Hero con Tailwind CSS -->
+        <header class="bg-cover bg-center h-screen text-white" style="background-image: url('./imagenes/portada.jpg');">
+            <div class="flex items-center justify-center h-full bg-black bg-opacity-50">
+                <div class="text-center">
+                    <h1 class="text-4xl md:text-6xl font-bold">Bienvenido a la cafeteria DANNY</h1>
+                    <p class="text-lg md:text-2xl mt-4">Ofrecemos las mejores bebidas</p>
+                </div>
+            </div>
+        </header>
+        <!-- Carrusel -->
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./imagenes/carusel1.jpg" class="d-block w-100" alt="Imagen 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagenes/carusel2.jpg" class="d-block w-100" alt="Imagen 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagenes/carusel3.jpg" class="d-block w-100" alt="Imagen 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
         
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>        
 </body>

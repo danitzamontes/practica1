@@ -1,0 +1,165 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Pagina de internacionalizacion</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="estilo.css"><style>
+            p {
+                margin: 20px; /* Espacio entre párrafos */
+            }
+            select{
+                margin: 20px;
+            }
+            #fondomenu {
+            background-image: url('imagenes/header-bg.png');
+            width: 100%;
+            height: auto;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: white;
+            padding: 20px 0; 
+        }
+        footer {
+            
+            color: white;
+            padding: 35px 0;
+            width: 100%; 
+            position: relative;
+            left: 0;
+            bottom: 0;
+        }
+
+        .footer-icons a {
+            color: white;
+            margin: 0 10px;
+            font-size: 24px;
+            transition: color 0.5s;
+        }
+
+        .footer-icons a:hover {
+            color: #898f96;
+        }
+        .image-container img {
+            height: 200px; 
+            width: 100%;
+            object-fit: cover; 
+        }
+        </style>
+    </head>
+    <body class="bg-stone-50 text-gray-900">
+        <div>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary" id="fondomenu">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Cafetería DANNY</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="navbar-nav ms-auto">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    <a class="nav-link" href="productos.html">Productos</a>
+                    <a class="nav-link" href="productospopulares.html">Productos populares</a>
+                    <a class="nav-link" href="recetas.html">Recetas</a>
+                    <a class="nav-link" href="contactos.html">Contactos</a>
+                    </div>
+                </div>
+                </div>
+            </nav>
+        </div>
+        <!--body-->
+
+    <!-- Productos populares de la cafeteria -->
+    <div class="container bg-white shadow-md rounded-lg p-6 mb-6">
+        <div class="row">
+            
+            <div class="col-12 mb-4">
+                <div class="p-4 bg-light rounded">
+                    <h2 class="text-2xl font-bold mb-2" id="contenido1">Poductos populares de la cafeteria DANNY</h2>
+                    <p class="text-gray-700" id="contenido2">En la cafeteria DANNY, nos enorgullece ofrecerte una selección de productos deliciosos que te
+                        encantarán. Te invitamos a probar nuestras opciones más populares, que se han ganado el corazón de nuestros clientes.
+                    </p>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-md-4 mb-4 image-container">
+                        <img src="./imagenes/popular1.jpg" alt="Imagen 1" class="img-fluid rounded">
+                        <h3 class="text-lg font-bold mt-2" id="contenido3">CAFÉ ESPECIAL DE LA CASA</h3>
+                        <p class="text-gray-700" id="contenido4">En cafetería DANNY, nuestro Café Especial de la Casa es uno de los productos más populares, 
+                            ¡y no es para menos! Preparado con granos seleccionados de la más alta calidad, tostados a la perfección para ofrecerte un sabor robusto y aromático que te hará empezar el día con energía y placer.
+                            Perfecto para acompañar tu desayuno o disfrutar en cualquier momento, nuestro café es la opción ideal para los amantes del buen café.
+                        </p>
+                    </div>
+                    <div class="col-md-4 mb-4 image-container">
+                        <img src="./imagenes/popular2.jpg" alt="Imagen 2" class="img-fluid rounded">
+                        <h3 class="text-lg font-bold mt-2" id="contenido5">TORTA DE CHOCOLATE DANNY</h3>
+                        <p class="text-gray-700" id="contenido6">En cafetería DANNY, nuestro pastel de chocolate es uno de los productos más populares, y no es para menos.
+                            Con su textura suave y húmeda, y un sabor intenso que combina la dulzura del chocolate con el toque perfecto de esponjosidad, ¡es el capricho ideal para cualquier momento del día!
+                        </p>
+                    </div>
+                    <div class="col-md-4 mb-4 image-container">
+                        <img src="./imagenes/popular3.jpg" alt="Imagen 3" class="img-fluid rounded">
+                        <h3 class="text-lg font-bold mt-2" id="contenido7">TÉ DE JAMAICA</h3>
+                        <p class="text-gray-700" id="contenido8">En cafetería DANNY, el té de jamaica es uno de los favoritos de nuestros clientes. Con su sabor único, refrescante 
+                            y ligeramente ácido, es la opción perfecta para acompañar cualquier comida o disfrutar en una tarde tranquila. 
+                            Además, es conocido por sus propiedades antioxidantes, lo que lo convierte en una opción saludable y deliciosa.
+                        </p>
+                        
+                    </div>
+                    <div class="col-md-4 mb-4 image-container">
+                        <img src="./imagenes/popular4.jpg" alt="Imagen 4" class="img-fluid rounded">
+                        <h3 class="text-lg font-bold mt-2" id="contenido9">CAPPUCCINO</h3>
+                        <p class="text-gray-700" id="contenido10">Nuestro cappuccino es uno de los productos más populares entre nuestros clientes, y no es para menos.
+                            Con una mezcla perfecta de espresso, leche vaporizada y una capa suave de espuma, cada sorbo ofrece una experiencia cremosa 
+                            y llena de sabor. Ideal para disfrutar a cualquier hora del día, ya sea solo o acompañado de tu pastel favorito.
+                        </p>
+                    </div>
+                    <div class="col-md-4 mb-4 image-container">
+                        <img src="./imagenes/popular5.jpg" alt="Imagen 5" class="img-fluid rounded">
+                        <h3 class="text-lg font-bold mt-2" id="contenido11">DONAS</h3>
+                        <p class="text-gray-700" id="contenido12">En cafetería DANNY, las donas son uno de nuestros productos más populares, y es fácil entender por qué.
+                            Con su textura esponjosa, cubierta de un glaseado irresistible y un toque dulce en cada bocado, son el acompañante perfecto para tu café o para disfrutar en cualquier momento del día.
+                        </p>
+                    </div>
+                    <div class="col-md-4 mb-4 image-container">
+                        <img src="./imagenes/popular6.jpg" alt="Imagen 6" class="img-fluid rounded">
+                        <h3 class="text-lg font-bold mt-2" id="contenido13">TÉ DE ANÍS</h3>
+                        <p class="text-gray-700" id="contenido14">En cafetería DANNY, el té de anis es uno de los favoritos de nuestros clientes. Con su sabor único, refrescante 
+                            y ligeramente ácido, es la opción perfecta para acompañar cualquier comida o disfrutar en una tarde tranquila. 
+                            Además, es conocido por sus propiedades antioxidantes, lo que lo convierte en una opción saludable y deliciosa.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <div class="w-full p-8 flex items-center justify-center"><img src="./imagenes/cafecito.jpg" alt="" class="rounded-lg"></div>    
+    
+          <!-- footer -->
+        <footer class="text-center mt-3 w-full bg-red-400">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mb-3">
+                        <p class="fs-6">&copy; 2025 Mi Página. Todos los derechos reservados.</p>
+                    </div>
+                    <div class="col-12">
+                        <div class="footer-icons flex justify-center">
+                            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="mx-3"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="mx-3"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" class="mx-3"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        
+    </body>
+</html>
